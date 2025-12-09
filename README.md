@@ -15,7 +15,13 @@ import pandas as pd
 # Création d'un DataFrame(tableau Pandas)
 df=pd.DataFrame(data)
 print("**************Créaction et affichage**************")
+
 # affichage du tableau
 print("tableau des Séquences ADN :")
 print(df)
 
+# Opération sur les tableaux:
+print("************** Opération**************")
+#1) sélectionner la colonne “Longueur”
+Longueur= df["Longueur"]
+print(longueur)
