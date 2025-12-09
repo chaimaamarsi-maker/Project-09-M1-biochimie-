@@ -2,7 +2,7 @@
 It's the first project to try
 #Marsi Chaimae, master 1 biochimie  13/12/2025
 #Les membres de groupe 
-#Geurmat fatima zohra 
+#Guermat fatima zohra 
 #Maasri nihel
 #Tikhemarine sihem
 #Benhamida manel
