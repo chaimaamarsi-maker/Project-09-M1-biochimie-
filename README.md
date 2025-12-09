@@ -13,7 +13,7 @@ import pandas as pd
 "Pourcentage GC":[50,66.67,58.33,40,45.45,60,50]
 }
 # Création d'un DataFrame(tableau Pandas)
-df=pd.DaraFrame(data)
+df=pd.DataFrame(data)
 print("**************Créaction et affichage**************")
 # affichage du tableau
 print("tableau des Séquences ADN :")
