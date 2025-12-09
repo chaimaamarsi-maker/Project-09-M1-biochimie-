@@ -7,3 +7,5 @@ It's the first project to try
 #Tikhemarine sihem
 #Benhamida manel
 import pandas as pd
+# Données : séquences ADN, longeur, pourcentage de GC data = {
+"séquence":["ATGCGTACGTA","GCTAGCTAGGCC","ATGCGCGTAAGT","TACGATCGTA","ATGAAAGGCTT","CGTACGTAGC","TTAACCGGAT"]
