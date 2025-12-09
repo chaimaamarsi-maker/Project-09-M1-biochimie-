@@ -1,5 +1,5 @@
 # Project-09-M1-biochimie-
-It's the first project to try
+# for Biology Master tlemcen ...13/12/2025
 #Marsi Chaimae, master 1 biochimie  13/12/2025
 #Les membres de groupe 
 #Guermat fatima zohra 
@@ -15,4 +15,7 @@ import pandas as pd
 # Création d'un DataFrame(tableau Pandas)
 df=pd.DaraFrame(data)
 print("**************Créaction et affichage**************")
+# affichage du tableau
+print("tableau des Séquences ADN :")
+print(df)
 
