@@ -7,9 +7,10 @@
 #Tikhemarine sihem
 #Benhamida manel
 import pandas as pd
-# Données : séquences ADN, longeur, pourcentage de GC data = {
-"séquence":["ATGCGTACGTA","GCTAGCTAGGCC","ATGCGCGTAAGT","TACGATCGTA","ATGAAAGGCTT","CGTACGTAGC","TTAACCGGAT"]
-"Longueur"[12,12,12,10,11,10,10],
+# Données : séquences ADN, longeur, pourcentage de GC 
+data = {
+"séquence":["ATGCGTACGTA","GCTAGCTAGGCC","ATGCGCGTAAGT","TACGATCGTA","ATGAAAGGCTT","CGTACGTAGC","TTAACCGGAT"],
+"Longueur":[12,12,12,10,11,10,10],
 "Pourcentage GC":[50,66.67,58.33,40,45.45,60,50]
 }
 # Création d'un DataFrame(tableau Pandas)
@@ -24,4 +25,4 @@ print(df)
 print("************** Opération**************")
 #1) sélectionner la colonne “Longueur”
 Longueur= df["Longueur"]
-print(longueur)
+print(Longueur)
