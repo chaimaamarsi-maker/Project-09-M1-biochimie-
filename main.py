@@ -1,5 +1,4 @@
-# Project-09-M1-biochimie-
-# for Biology Master tlemcen ...13/12/2025
+# Project-09-M1-biochimie
 #Marsi Chaimae, master 1 biochimie  13/12/2025
 #Les membres de groupe 
 #Guermat fatima zohra 
