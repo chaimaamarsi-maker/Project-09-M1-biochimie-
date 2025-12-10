@@ -26,3 +26,8 @@ print("************** Opération**************")
 #1) sélectionner la colonne “Longueur”
 Longueur= df["Longueur"]
 print(Longueur)
+#3)Filtrer les séquences avec un pourcentage de GC supérieur à 10
+print("************** Filtrage avec pourcentage % **************")
+# Filtrer les séquences avec un pourcentage de GC supérieur à 10
+filtered_df = df[df["pourcentage GC"] > 10]
+print(fitered_df)
