@@ -35,4 +35,4 @@ print(fitered_df)
 print ("************* Calcul de la moyenne*************")
 # Calculer la moyenne du pourcentage de GC
 average_gc = df("pourcentage GC") ,mean ()
-print (f"pourcentage moyen de GC : (average_gc:.2f)%") 
+print (f"pourcentage moyen de GC : (average_gc:.3f)%") 
