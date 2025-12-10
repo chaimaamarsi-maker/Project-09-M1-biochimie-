@@ -24,8 +24,8 @@ print(df)
 # Opération sur les tableaux:
 print("************** Opération**************")
 #1) sélectionner la colonne “Longueur”
-Longueur= df["Longueur"]
-print(Longueur)
+Longueur = df["Longueur"]
+print(longueur)
 #3)Filtrer les séquences avec un Longueur supérieur à 10
 print("************** Filtrage avec Longueur **************")
 # Filtrer les séquences avec un Longueur supérieur à 10
@@ -37,7 +37,7 @@ print ("************* Calcul de la moyenne*************")
 average_gc = df["Pourcentage GC"] .mean ()
 print (f"Pourcentage moyen de GC : {average_gc:.3f}%") 
 #5) Ajouter une nouvelle colonne avec des calculs
-Print (" ************* Ajouter une nouvelle colonne *************") 
+Print ("************* Ajouter une nouvelle colonne *************") 
 # Ajouter une nouvelle colonne "Catégorisées GC" 
 df["Catégorie GC"]= df["Pourcentage GC"]•apply(lambda x: "Riche" if x> 55 else "Moyen" if 45 <= x <= 55 else "Faible") 
 print(df) 
