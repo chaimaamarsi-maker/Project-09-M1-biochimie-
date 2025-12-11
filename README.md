@@ -1,4 +1,4 @@
- Projecrt-09-M1-biochimie-
+Projecrt-09-M1-biochimie-
 # for Biology Master tlemcen ...13/12/2025
 #Marsi Chaimae, master 1 biochimie  13/12/2025
 #Les membres de groupe 
@@ -39,10 +39,17 @@ print(f"Pourcentage moyen de GC : {average_gc:.3f}%")
 #5) Ajouter une nouvelle colonne avec des calculs
 print("************* Ajouter une nouvelle colonne *************") 
 # Ajouter une nouvelle colonne "Catégorisées GC" 
-df["Catégorie GC"] = df["Pourcentage GC"]•apply(lambda x: "Riche" if x > 55 else ("Moyen" if 45 <= x <= 55 else "Faible" if x < 45)
+df["Catégorie GC"] =df["Pourcentage GC"]•apply(lambda x: "Riche" if x > 55 else "Moyen" if 45 <= x <= 55 else "Faible" if x < 45)
 print(df) 
 # 6)Ajouter une colonne comptant les 'G'
-df["Nombre de G"]=df["Séquence"]str.count("G")
+df["Nombre de G"] = df["Séquence"]str.count("G")
 
-print("=====6)=Nombre de G ajoutés=====")
+print("===== Nombre de G ajoutés =====")
 print(df, "\n")
+# 7) Calculer l'écart type de Pourcentage GC et de longueur 
+écart type_gc = df["Pourcentage GC"].std()
+écart type_long = df["Longueur"].std()
+print("===== Écart type =====")
+print("Écart type de pourcentage GC:", écarttype_gc)
+print("Écart type de longueur:", écarttype_long)
+print(df,"\n\n")
