@@ -1,4 +1,4 @@
-Projecrt-09-M1-biochimie-
+#Projecrt-09-M1-biochimie-
 # for Biology Master tlemcen ...13/12/2025
 #Marsi Chaimae, master 1 biochimie  13/12/2025
 #Les membres de groupe 
@@ -42,11 +42,11 @@ print("************* Ajouter une nouvelle colonne *************")
 df["Catégorie GC"] = df["Pourcentage GC"].apply(lambda x: "Riche" if x > 55 else ("Moyen" if 45 <= x <= 55 else "Faible"))
 print(df)
 # 6)Ajouter une colonne comptant les 'G'
-df["Nombre de G"] = df["Séquence"]str.count("G")
+df["Nombre de G"] = df["séquence"].str.count("G")
 
 print("=====6) Nombre de G ajoutés =====")
 print(df, "\n")
-# 7) Calculer l'écart type de Pourcentage GC et de longueur 
+# 7) Calculer l'écart type de Pourcentage GC et de longueur
 écart_type_gc = df["Pourcentage GC"].std()
 écart_type_long = df["Longueur"].std()
 print("===== Écart type =====")
