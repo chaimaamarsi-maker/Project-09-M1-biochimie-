@@ -53,6 +53,6 @@ print("===== Écart type =====")
 print("Écart type de pourcentage GC:", écart_type_gc)
 print("Écart type de longueur:", écart_type_long)
 print(df,"\n\n")
-#7) Sauvegarde et chargement des données avec pandas
+#8) Sauvegarde et chargement des données avec pandas
 #Sauvegarder le DataFrame dans un fichier csv
 df.to_csv("tableau_séquence.csv", index=False)
