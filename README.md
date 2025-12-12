@@ -1,6 +1,6 @@
 #Projecrt-09-M1-biochimie-
 # for Biology Master tlemcen ...13/12/2025
-#Marsi Chaimae, master 1 biochimie  13/12/2025
+#Marsi Chaimae, master 1 biochimie  
 #Les membres de groupe 
 #Guermat fatima zohra 
 #Maasri nihel
